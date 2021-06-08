@@ -40,7 +40,10 @@ function draw() {
   rectMode(CENTER);
   background(230);
  
-
+ textSize(20);
+  fill("lightblue");
+  text("Press up arrow key for the paper to be in its correct place!",100,30);
+	
   groundObject.display();
   paper1.display();
   dustbinObj.display();
